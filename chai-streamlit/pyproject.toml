@@ -1,0 +1,19 @@
+[project]
+name = "chai-streamlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Manish Kumar", email = "153503018+manish-kumar08@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.66.0",
+]
+
+[project.scripts]
+chai-streamlit = "chai_streamlit:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
